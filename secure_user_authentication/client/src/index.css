@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.vertically {
+    writing-mode: vertical-rl; 
+    text-orientation: upright;
+}

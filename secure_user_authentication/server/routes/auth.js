@@ -53,7 +53,7 @@ const protect = (req, res, next) => {
   }
 };
 
-// Example of a protected route
+
 router.get('/protected', protect, (req, res) => {
   res.json({ message: 'This is a protected route', userId: req.user.userId });
 });
